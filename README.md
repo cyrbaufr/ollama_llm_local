@@ -11,19 +11,19 @@ Type "ollama run" + name of the model
 e.g. ollama run llama3.2:1b
 Test can be performed in a terminal using command lines:  
 
-'''python 
+```python 
 curl http://127.0.0.1:11434/api/generate -d '{
   "model": "llama3.2:1b",
   "prompt":"Why is the sky blue?"
 }'
-'''  
+``` 
 
 To avoid individual tokens generation:  
 
-'''python
+```python
 curl http://127.0.0.1:11434/api/generate -d '{
   "model": "llama3.2:1b",
   "prompt":"Create a python function to add two integers?", 
   "stream": false
 }'
-'''
+```

@@ -8,8 +8,9 @@ This will install Ollama on the PC
 
 ## Run a model locally
 Type "ollama run" + name of the model  
-e.g. ** ollama run llama3.2:1b **  
-Test can be performed in a terminal using command lines:  
+e.g. **ollama run llama3.2:1b**  
+
+Test can be performed in a terminal using command lines to generate a response:  
 
 ```python 
 curl http://127.0.0.1:11434/api/generate -d '{
